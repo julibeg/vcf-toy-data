@@ -1,0 +1,14 @@
+##gff-version 3
+##sequence-region   Chromosome 1 600
+#!genome-build European Nucleotide Archive ASM19595v2
+#!genome-version ASM19595v2
+#!genome-date 2015-02
+#!genome-build-accession GCA_000195955.2
+#!genebuild-last-updated 2015-02
+Chromosome	ena	gene	1	100	.	+	.	ID=gene:Rv0001;Name=dnaA;biotype=protein_coding;description=Chromosomal replication initiator protein DnaA;gene_id=Rv0001;logic_name=ena
+Chromosome	ena	mRNA	1	100	.	+	.	ID=transcript:Rv0001;Parent=gene:Rv0001;Name=dnaA-1;biotype=protein_coding;transcript_id=Rv0001
+Chromosome	ena	exon	1	100	.	+	.	Parent=transcript:Rv0001;Name=Rv0001-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=Rv0001-1;rank=1
+Chromosome	ena	CDS	1	100	.	+	0	ID=CDS:Rv0001;Parent=transcript:Rv0001;protein_id=Rv0001
+###
+Chromosome	European Nucleotide Archive	chromosome	1	600	.	.	.	ID=chromosome:Chromosome;Alias=AL123456.3
+###
