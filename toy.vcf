@@ -7,4 +7,6 @@
 ##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	s1	s2	s3
 Chromosome	4	.	A	G	93137.1	PASS	AC=24	GT	0/0	1/1	1/1
-Chromosome	5	.	C	G	93137.1	PASS	AC=24	GT	1/1	0/0	1/1
+Chromosome	5	.	C	CG	93137.1	PASS	AC=24	GT	1/1	0/0	0/0
+Chromosome	5	.	C	CTT	93137.1	PASS	AC=24	GT	0/0	1/1	./.
+Chromosome	10	.	GACCCCGGTT	G	93137.1	PASS	AC=24	GT	0/0	0/0	1/1
